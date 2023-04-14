@@ -74,7 +74,7 @@ class _DiceState extends State<Dice> {
                   ),
                 ),
               ),
-              SizedBox(height: 30,),
+              SizedBox(height: 45,),
               Text("${points}", style: TextStyle(color: Colors.white,fontSize: 50, fontWeight: FontWeight.bold),)
             ],
           )
