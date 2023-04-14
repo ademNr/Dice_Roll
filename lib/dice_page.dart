@@ -67,16 +67,15 @@ class _DiceState extends State<Dice> {
 
                   },
                   child: Image.asset(
-
-
                       images[currentImageIndex],
                       height: 200,
                       width: 200,
-                      fit: BoxFit.fill            ),
+                      fit: BoxFit.fill  ,
+                  ),
                 ),
               ),
-              SizedBox(height: 100,),
-              Text("${points}", style: TextStyle(color: Colors.white,fontSize: 80, fontWeight: FontWeight.bold),)
+              SizedBox(height: 30,),
+              Text("${points}", style: TextStyle(color: Colors.white,fontSize: 50, fontWeight: FontWeight.bold),)
             ],
           )
       ),
